@@ -65,9 +65,7 @@ Tie it all together.
     
 - **Speed Run:** Spend the last hours mimicking exam conditions. Pick documentation links instead of typing commands from memory to ensure your searching skills are sharp.
 
-### Offtopics
-
-[[Custom Analyzer]]
+### [[Offtopics]]
 ## Top 3 Pro-Tips from a 3x Certified Engineer
 
 1. **Bookmark the Docs Strategically:** You are allowed to use the official Elastic Documentation during the exam. Create a clean browser bookmark folder with direct links to the **Request Examples** of complex APIs (e.g., ILM policy JSON, Ingest Pipeline setup, Reindex structure, and Dynamic Templates). Copying and pasting boilerplate code saves critical minutes.

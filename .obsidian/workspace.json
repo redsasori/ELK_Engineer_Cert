@@ -13,40 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Custom Analyzer.md",
+                "file": "1 Elastic Engg - 7 Days Roadmap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Custom Analyzer"
+              "title": "1 Elastic Engg - 7 Days Roadmap"
             }
           },
           {
-            "id": "eda40569ec100334",
+            "id": "c557f89eccb686b1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Aggregations.md",
+                "file": "Offtopics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Aggregations"
-            }
-          },
-          {
-            "id": "0a96b6fee9c897ee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Custom Analyzer.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Custom Analyzer"
+              "title": "Offtopics"
             }
           }
         ]
@@ -205,17 +191,19 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "91ee34b700b59e41",
   "lastOpenFiles": [
+    "Offtopics.md",
+    "Custom Analyzer.md",
+    "1 Elastic Engg - 7 Days Roadmap.md",
     "pagination.md",
     "Sorting & Pagination.md",
     "Update By Query.md",
-    "1 Elastic Engg - 7 Days Roadmap.md",
     "Aggregations.md",
-    "Custom Analyzer.md",
     "Match vs. Term.md",
     "Queries vs. Filters.md",
     "explicit mappings.md",
