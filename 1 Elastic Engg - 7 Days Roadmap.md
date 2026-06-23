@@ -14,14 +14,14 @@ Learn how to manipulate data before and after it hits the disk.
 - **Mappings & Multi-fields:** Practice creating [[explicit mappings]]. Know how to index a field as both `text` (for full-text search) and `keyword` (for [[aggregations]]/[[sorting]]) using `fields`.
     
 - **[[Ingest Pipelines]]:** Get comfortable with processors like `grok`, `set`, `rename`, `convert`, and `script`. Know how to test them using the `_simulate` API.
-	    
-- **Reindex & Update By Query:** Understand how to change mappings by reindexing data into a new index, and how to apply pipeline updates to existing documents.
+
+- **[[Reindex]] & Update By Query:** Understand how to change mappings by reindexing data into a new index, and how to apply pipeline updates to existing documents. 
 
 ### Day 3: Core Search, Sort, & Pagination
 
 The exam will require you to write complex queries. Drill down on precision here.
 
-- **Queries vs. Filters:** Master the `bool` query. Remember that `must` and `should` contribute to the relevance score (`_score`), while `filter` and `must_not` run in a filter context (no scoring, heavily cached).
+- **[[Queries vs. Filters]]:** Master the `bool` query. Remember that `must` and `should` contribute to the relevance score (`_score`), while `filter` and `must_not` run in a filter context (no scoring, heavily cached).
     
 - **Match vs. Term:** Use `match` for analyzed text fields and `term` for exact match keyword/numeric fields.
     
