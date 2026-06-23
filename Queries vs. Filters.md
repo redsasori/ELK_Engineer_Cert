@@ -99,4 +99,8 @@ GET /security-logs/_search
 }
 ```
 
-
+| **Concept**  | **Use it alone when...**                          | **Real-World Scenario**                           |
+| ------------ | ------------------------------------------------- | ------------------------------------------------- |
+| **`match`**  | You need to rank text by relevance.               | A user types into a website search bar.           |
+| **`term`**   | You need an exact ID or exact keyword.            | Looking up a specific user ID or tracking number. |
+| **`filter`** | You want data fast and don't care about `_score`. | Populating a time-based dashboard or chart.       |
