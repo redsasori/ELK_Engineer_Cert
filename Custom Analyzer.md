@@ -21,7 +21,7 @@ Think of an analyzer as a **3-step assembly line**. Text flows through it in thi
 
 Always test your custom pipeline using the **`_analyze` API** before you index real data to ensure it chops the text exactly how you expect!
 
-### Exampe
+### Example
 
 ```
 PUT my-index-000001
