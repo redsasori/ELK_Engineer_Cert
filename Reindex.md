@@ -1,7 +1,6 @@
 The `_source` field contains the **exact, literal JSON payload** that you sent to Elasticsearch when you first indexed the document. It preserves your original formatting, field names, data types, and structural hierarchy completely intact.
 
 To understand exactly what data it contains (and what it _does not_ contain), let's look at a concrete example.
-
 ###  A Real-World View: Metadata vs. `_source`
 
 When you retrieve a document from Elasticsearch, the response is wrapped in a JSON object. The data is divided into two parts: **Cluster Metadata** and the **`_source` field**.
@@ -96,6 +95,24 @@ POST /_reindex
   },
   "dest": {
     "index": "server-logs-errors-only"
+  }
+}
+```
+
+### Reindex AIO query with all parameters
+
+```
+POST /_reindex?wait_for_completion=false&requests_per_second=5000
+{
+  "conflicts": "proceed",
+  "slices": "auto",
+  "source": {
+    "index": "logs-*",
+    "ignore_unavailable": true,
+    "size": 5000
+  },
+  "dest": {
+    "index": "logs-archive"
   }
 }
 ```

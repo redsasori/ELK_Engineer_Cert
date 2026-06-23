@@ -9,7 +9,6 @@
 | `WHERE NOT (x = 1)`             | **`bool`** -> **`must_not`**                                |
 | `WHERE text LIKE '%fox%'`       | **`wildcard`** (Slow, avoid if possible!)                   |
 | `MATCH(text) AGAINST('fox')`    | **`match`** (Fast, analyzed, ranked search)                 |
-|                                 |                                                             |
 
 ### Why use all three (`must`, `match`, and `term`) together?
 

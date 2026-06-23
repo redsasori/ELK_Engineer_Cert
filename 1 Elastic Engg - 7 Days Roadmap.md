@@ -11,11 +11,11 @@ Focus on setting up the structural foundations of Elasticsearch.
 
 Learn how to manipulate data before and after it hits the disk.
 
-- **Mappings & Multi-fields:** Practice creating [[explicit mappings]]. Know how to index a field as both `text` (for full-text search) and `keyword` (for [[aggregations]]/[[sorting]]) using `fields`.
+- **Mappings & Multi-fields:** Practice creating [[explicit mappings]]. Know how to index a field as both `text` (for full-text search) and `keyword` (for [[Aggregations]]/[[sorting]]) using `fields`.
     
 - **[[Ingest Pipelines]]:** Get comfortable with processors like `grok`, `set`, `rename`, `convert`, and `script`. Know how to test them using the `_simulate` API.
 
-- **[[Reindex]] & Update By Query:** Understand how to change mappings by reindexing data into a new index, and how to apply pipeline updates to existing documents. 
+- **[[Reindex]] & [[Update By Query]]:** Understand how to change mappings by reindexing data into a new index, and how to apply pipeline updates to existing documents. 
 
 ### Day 3: Core Search, Sort, & Pagination
 
@@ -23,13 +23,13 @@ The exam will require you to write complex queries. Drill down on precision here
 
 - **[[Queries vs. Filters]]:** Master the `bool` query. Remember that `must` and `should` contribute to the relevance score (`_score`), while `filter` and `must_not` run in a filter context (no scoring, heavily cached).
     
-- **Match vs. Term:** Use `match` for analyzed text fields and `term` for exact match keyword/numeric fields.
+- **[[Match vs. Term]]:** Use `match` for analyzed text fields and `term` for exact match keyword/numeric fields.
     
-- **Sorting & Pagination:** Practice sorting by multiple fields and implementing pagination using `from`/`size` or `search_after` for large datasets.
+- **[[sorting]] & [[pagination]]:** Practice sorting by multiple fields and implementing pagination using `from`/`size` or `search_after` for large datasets.
     
 - **Aliases:** Know how to create, swap, and filter index aliases seamlessly.
 
-### Day 4: Aggregations & Asynchronous Search
+### Day 4: [[Aggregations]] & Asynchronous Search
 
 This is where many people lose time. Speed up your aggregation nesting.
 

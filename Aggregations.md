@@ -56,4 +56,11 @@ POST /tech-orders/_bulk
 {"category":"laptop","brand":"Dell","price":1400,"purchase_date":"2026-06-01"}
 ```
 
-	
+### Types of Aggregation
+
+|**Aggregation Type**|**What it does**|**When to use it**|**Output Type**|
+|---|---|---|---|
+|**Metric**|Math|When you need a calculation (Sum, Avg, Max).|A single calculated number.|
+|**Bucket**|Grouping|When you need to sort data into categories or timelines.|A list of distinct bins and their counts.|
+|**Nested**|Unpacking|When querying an array of objects mapped as `nested`.|Allows Metrics/Buckets to run inside arrays.|
+

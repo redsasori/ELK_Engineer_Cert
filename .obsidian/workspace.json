@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Queries vs. Filters.md",
+                "file": "1 Elastic Engg - 7 Days Roadmap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Queries vs. Filters"
+              "title": "1 Elastic Engg - 7 Days Roadmap"
             }
           }
         ]
@@ -183,18 +183,22 @@
   },
   "active": "91ee34b700b59e41",
   "lastOpenFiles": [
+    "Aggregations.md",
+    "1 Elastic Engg - 7 Days Roadmap.md",
+    "explicit mappings.md",
+    "pagination.md",
     "sorting.md",
+    "Sorting & Pagination.md",
+    "Match vs. Term.md",
     "Reindex.md",
+    "Update By Query.md",
     "Queries vs. Filters.md",
     "Ingest Pipelines.md",
     "index template.md",
-    "explicit mappings.md",
     "Doubt 1 MM and Match.md",
     "Custom Analyzer.md",
     "Core Concepts Elastic.md",
     "component templates.md",
-    "aggregations.md",
-    "1 Elastic Engg - 7 Days Roadmap.md",
     "Queries vs Filters.md"
   ]
 }
