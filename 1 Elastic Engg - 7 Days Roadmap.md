@@ -27,7 +27,7 @@ The exam will require you to write complex queries. Drill down on precision here
     
 - **[[sorting]] & [[pagination]]:** Practice sorting by multiple fields and implementing pagination using `from`/`size` or `search_after` for large datasets.
     
-- **Aliases:** Know how to create, swap, and filter index aliases seamlessly.
+- **[[Aliases]]:** Know how to create, swap, and filter index aliases seamlessly.
 
 ### Day 4: [[Aggregations]] & Asynchronous Search
 
