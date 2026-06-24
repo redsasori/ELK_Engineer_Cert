@@ -11,7 +11,7 @@ Focus on setting up the structural foundations of Elasticsearch.
 
 Learn how to manipulate data before and after it hits the disk.
 
-- **Mappings & Multi-fields:** Practice creating [[explicit mappings]]. Know how to index a field as both `text` (for full-text search) and `keyword` (for [[Aggregations]]/[[sorting]]) using `fields`.
+- **Mappings & Multi-fields:** Practice creating [[explicit mappings]]. Know how to index a field as both `text` (for full-text search) and `keyword` (for [[Aggregations & Asynchronous Search]]/[[sorting]]) using `fields`.
     
 - **[[Ingest Pipelines]]:** Get comfortable with processors like `grok`, `set`, `rename`, `convert`, and `script`. Know how to test them using the `_simulate` API.
 
@@ -29,7 +29,7 @@ The exam will require you to write complex queries. Drill down on precision here
     
 - **[[Aliases]]:** Know how to create, swap, and filter index aliases seamlessly.
 
-### Day 4: [[Aggregations]] & Asynchronous Search
+### Day 4: [[Aggregations & Asynchronous Search]]
 
 This is where many people lose time. Speed up your aggregation nesting.
 
