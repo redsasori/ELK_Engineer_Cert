@@ -4,7 +4,7 @@ Focus on setting up the structural foundations of Elasticsearch.
 
 - **Define an index:** Know how to set explicit settings (e.g., `number_of_shards`, `number_of_replicas`).
     
-	- **Dynamic Templates:** Master how to control unmapped fields based on their data type or field name (using `match_mapping_type` or `match`). [[Doubt 1 MM and Match]]
+	- **Dynamic Templates:** Master how to control unmapped fields based on their data type or field name (using `match_mapping_type` or `match`). [[Match Mapping,Match & Dynamic Template]]
     
 - **Index Templates & Data Streams:** Practice creating [[component templates]](`_component_template`) and combining them into an [[index template]] (`_index_template`) configured for a data stream (requires a matching `data_stream: {}` object and a `timestamp` field).
 ### Day 2: Data Processing & Ingest Pipelines
@@ -25,7 +25,7 @@ The exam will require you to write complex queries. Drill down on precision here
     
 - **[[Match vs. Term]]:** Use `match` for analyzed text fields and `term` for exact match keyword/numeric fields.
     
-- **[[sorting]] & [[pagination]]:** Practice sorting by multiple fields and implementing pagination using `from`/`size` or `search_after` for large datasets.
+- **[[sorting]] & [[Pagination]]:** Practice sorting by multiple fields and implementing pagination using `from`/`size` or `search_after` for large datasets.
     
 - **[[Aliases]]:** Know how to create, swap, and filter index aliases seamlessly.
 

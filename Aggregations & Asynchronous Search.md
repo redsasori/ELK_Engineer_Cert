@@ -71,13 +71,13 @@ GET /global-sales/_search
     }
   }
 }
-```
+``` 
 
 ### 3. Asynchronous Search (`_async_search`)
 
 **The Concept:** When a query is so massive it will time out your connection, you send it to the background. You get an ID, check on it later, and delete it when you are done.
 
-**The 3-Step Exam Workflow:**
+zz**The 3-Step Exam Workflow:**
 
 **Step 1: Submit the heavy query (Tell it to run in the background after 1 second).**
 
